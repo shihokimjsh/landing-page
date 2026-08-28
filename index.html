@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shiho Kim</title>
+<meta name="description" content="Shiho Kim — personal site.">
+<style>
+  :root {
+    --bg: #fdfdfc;
+    --fg: #1a1a18;
+    --muted: #6b6b64;
+    --rule: #e4e4de;
+    --accent: #b4522d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14140f;
+      --fg: #eeeee8;
+      --muted: #9b9b90;
+      --rule: #2c2c25;
+      --accent: #e0865c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.65 ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main {
+    max-width: 34rem;
+    margin: 0 auto;
+    padding: 18vh 1.5rem 6rem;
+  }
+  h1 {
+    font-size: 2rem;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.75rem;
+  }
+  .tagline {
+    color: var(--muted);
+    margin: 0 0 2.5rem;
+  }
+  section { margin-bottom: 2.5rem; }
+  h2 {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: var(--muted);
+    font-weight: 600;
+    margin: 0 0 0.9rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { margin-bottom: 0.6rem; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .note { color: var(--muted); }
+  footer {
+    color: var(--muted);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--rule);
+    padding-top: 1.25rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Shiho Kim</h1>
+  <p class="tagline">Short one-line intro goes here.</p>
+
+  <section>
+    <h2>Work</h2>
+    <ul>
+      <li><a href="#">Project one</a> <span class="note">— what it is.</span></li>
+      <li><a href="#">Project two</a> <span class="note">— what it is.</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Elsewhere</h2>
+    <ul>
+      <li><a href="https://github.com/shihokimjsh">GitHub</a></li>
+      <li><a href="mailto:shihokim.jsh@gmail.com">Email</a></li>
+    </ul>
+  </section>
+
+  <footer>© 2026 Shiho Kim</footer>
+</main>
+</body>
+</html>
